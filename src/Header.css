@@ -1,0 +1,59 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    /* Additional styling for the header */
+  }
+  
+  .header_left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu_icon {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .header_logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .header_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+  }
+  .header_input > input{
+    flex: 1;
+    border: none;
+  }
+  .header_inputbutton{
+    width: 50%;
+    background-color: #fafafa;
+    border-left: 1 px solid lightgrey;
+    color: gray;
+
+}
+.header_icon{
+    margin: 8px ;
+}
+  .logo_image {
+    width: 30px; /* Adjust this value as needed */
+    height: 20px; /* Adjust this value as needed */
+    margin-right: 8px; /* Adjust this value for spacing */
+  }
+  
+  .logo_text {
+    font-weight: bold;
+    /* Additional styling for the text */
+  }
+  
+ 
